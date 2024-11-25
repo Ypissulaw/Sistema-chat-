@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #292929;
+    color: #dcdcdc;
+    line-height: 1.6;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Estilo do fieldset */
+fieldset {
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    color: #f4a261;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+/* Labels e inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #444;
+    color: #dcdcdc;
+}
+
+input[type="submit"] {
+    background: #f4a261;
+    color: #292929;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #e76f51;
+}
+
+/* Mensagens */
+.messages {
+    margin-top: 20px;
+}
+
+.message {
+    background: #404040;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #f4a261;
+}
+
+.message strong {
+    color: #f4a261;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 10px 0;
+}
+
+/* Mensagem quando não há conteúdo */
+.quiet {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+}
